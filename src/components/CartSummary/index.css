@@ -1,0 +1,33 @@
+.cartSummaryContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: flex-end;
+  background-color: transparent;
+}
+.totalHeading {
+  font-size: 18px;
+  font-family: roboto;
+  color: #616e7c;
+}
+.totalAmount {
+  font-size: 24px;
+  font-family: roboto;
+  color: #171f46;
+  font-weight: 800;
+}
+.itemCountPara {
+  color: #616e7c;
+  font-family: roboto;
+  font-size: 14px;
+  align-self: flex-start;
+}
+.checkoutBtn {
+  background-color: #0b69ff;
+  
+  padding: 12px;
+  border-color: #ffffff;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 5px;
+}
